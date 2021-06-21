@@ -46,9 +46,17 @@ letter-spacing: 0.03em;
 
 .list {
   list-style: none;
+  display: flex;
 }
 
-.feature-list  {
+
+.list .item:not(:last-child) {
+  margin-right: 50px;
+}
+
+
+
+.feature-list  { 
   list-style: none;
 }
 
@@ -58,8 +66,16 @@ letter-spacing: 0.03em;
 /* button */
  
 .button {
+display: inline-block;
+border-radius: 4px;
+padding: 10px 32px;
+min-width: 200px;
+
+
+
   color: var(--primery-bg-color);
   background-color: var(--accent-color);
+
 
  
 font-style: normal;
@@ -73,22 +89,31 @@ letter-spacing: 0.06em;
 
 /* Site-nav */
 
-.link {
-  color: var(--title-tex-color);
+.page-header {
+  display: flexbox;
+}
 
- 
+.link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--title-tex-color);
+  
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
-
 }
 
 .page {
+  padding-top: 196px;
+  padding-bottom: 280px;
+
+
   background: var(--primery-page-color);
   color: var(--primery-bg-color);
-  
   
 font-style: normal;
 font-weight: 900;
@@ -107,9 +132,12 @@ text-transform: uppercase;
 }
 
 .link.current {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
     color: var(--accent-color);
 
-    
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -117,9 +145,24 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 }
 
+.link-tele {
+  columns: var(--accent-color);
+
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+
+
+
+.telephon .item + .item {
+margin-left: 50px;
+}
+
 .link-tel {
   color: var(--primery-tex-color);
-
 
 font-style: normal;
 font-weight: 500;
@@ -179,6 +222,8 @@ letter-spacing: 0.03em;
 /* footer */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 161px;
   background: var(--primery-footer-color);
 }
 
@@ -196,9 +241,11 @@ letter-spacing: 0.03em;
 /* priority company */
 
 .desc {
+  margin-top: 10px;
+  margin-bottom: 0;
+
   color: var(--primery-tex-color);
 
-  
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -209,8 +256,11 @@ letter-spacing: 0.03em;
 /* people company */
 
 .slogan {
-  color: var(--title-tex-color);
+  margin-top: 75px;
+  margin-bottom: 0;
 
+
+  color: var(--title-tex-color);
 
 font-style: normal;
 font-weight: bold;
@@ -221,6 +271,9 @@ text-transform: uppercase;
 }
 
 .slogan-title {
+padding-top: 0;
+padding-bottom: 94px;
+
   color: var(--title-tex-color);
 
 font-weight: bold;
@@ -231,6 +284,8 @@ letter-spacing: 0.03em;
 }
 
 .title {
+  margin-top: 0;
+  margin-bottom: 30px;
   
 font-weight: 900;
 font-size: 44px;
@@ -247,9 +302,11 @@ text-transform: uppercase;
 }
 
 .comand .headline {
+margin-top: 30px;
+margin-bottom: 0;
+
   color: var(--title-tex-color);
 
-  
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -261,8 +318,10 @@ letter-spacing: 0.03em;
 }
 
 .information {
-  color: var(--primery-tex-color);
+margin-top: 10px;
+margin-bottom: 0;
 
+  color: var(--primery-tex-color);
 
 font-style: normal;
 font-weight: normal;
@@ -272,3 +331,17 @@ line-height: 1.2;
 text-align: center;
 letter-spacing: 0.03em;
 }
+
+.container {
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+
+ 
+
+}
+
+
