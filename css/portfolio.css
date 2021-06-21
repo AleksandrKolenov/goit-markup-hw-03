@@ -16,9 +16,8 @@ body {
 
 /* site-nav */
 
-.main-nav {
+.prov {
   display: flex;
-  align-items: center;
 }
 
 .logo {
@@ -45,6 +44,11 @@ body {
 
 .list {
   list-style: none;
+}
+
+.logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo {
@@ -122,6 +126,8 @@ body {
 /* e-mail */
 
 .adress {
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--secondary-text-color);
 
   font-style: normal;
@@ -249,5 +255,6 @@ body {
 
 .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
