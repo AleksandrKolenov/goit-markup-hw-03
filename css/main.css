@@ -41,19 +41,40 @@ letter-spacing: 0.03em;
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+}
+
+.pov {
+  display: flex;
+  
+}
+
+.telephon {
+  margin-left: auto;
+}
+
+
+
+.logo {
   text-decoration: none;
+ 
 }
 
 .list {
-  list-style: none;
   display: flex;
+  align-items: center;
 }
-
 
 .list .item:not(:last-child) {
   margin-right: 50px;
 }
 
+
+.list {
+  list-style: none;
+  
+}
 
 
 .feature-list  { 
@@ -89,9 +110,6 @@ letter-spacing: 0.06em;
 
 /* Site-nav */
 
-.page-header {
-  display: flexbox;
-}
 
 .link {
   display: block;
@@ -155,9 +173,7 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 }
 
-
-
-.telephon .item + .item {
+.telephon list .item + .item {
 margin-left: 50px;
 }
 
@@ -176,10 +192,11 @@ letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 
-.link-mail {
+.e-mail {
+  margin-top: 9px;
+  margin-bottom: 9px;
   color: rgba(255, 255, 255, 0.6);
 
-  
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -187,8 +204,8 @@ line-height: 1.7;
 letter-spacing: 0.03em;
 }
 
-.link-mail:hover,
-.link-mail:focus {
+.e-mail:hover,
+.e-mail:focus {
   color: var(--accent-color);
 }
 
@@ -206,6 +223,15 @@ letter-spacing: 0.03em;
 }
 
 /* primary tex */
+
+.feature-list {
+  display: flex;
+  justify-content: center;
+}
+
+.feature-list .item:not(:last-child) {
+  margin-right: 30px;
+}
 
 .feature-list {
   color: var var(--title-tex-color);
@@ -227,9 +253,21 @@ letter-spacing: 0.03em;
   background: var(--primery-footer-color);
 }
 
- .aside{
-  color: var(--primery-bg-color);
+.mail {
+  list-style: none;
+  
+}
 
+.mail li a {
+  text-decoration: none;
+}
+
+
+ .aside{
+margin-top: 20px;
+margin-bottom: 0;
+
+color: var(--primery-bg-color);
 
 font-style: normal;
 font-weight: normal;
@@ -255,6 +293,32 @@ letter-spacing: 0.03em;
 
 /* people company */
 
+
+.all {
+  display: flex;
+}
+
+.all .item:not(:last-child) {
+  margin-right: 30px;
+ align-items: center;
+}
+  
+.pictures {
+  display: flex;
+  justify-content: center;
+}
+
+.pictures .item:not(:last-child) {
+   margin-right: 30px;
+ 
+ display: inline-block;
+}
+
+.pictures .item {
+  margin-top: 0;
+  margin-bottom: 94px;
+}
+
 .slogan {
   margin-top: 75px;
   margin-bottom: 0;
@@ -271,8 +335,8 @@ text-transform: uppercase;
 }
 
 .slogan-title {
-padding-top: 0;
-padding-bottom: 94px;
+margin-top: 94px;
+margin-bottom: 50px;
 
   color: var(--title-tex-color);
 
@@ -319,7 +383,7 @@ letter-spacing: 0.03em;
 
 .information {
 margin-top: 10px;
-margin-bottom: 0;
+margin-bottom: 30px;
 
   color: var(--primery-tex-color);
 
@@ -332,16 +396,22 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
-.container {
+.box {
 
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-
- 
-
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
 
