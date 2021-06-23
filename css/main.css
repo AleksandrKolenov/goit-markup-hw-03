@@ -17,6 +17,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+
 /* Logo */
 
 .logo {
@@ -43,6 +44,7 @@ letter-spacing: 0.03em;
 .logo {
   display: flex;
   align-items: center;
+  margin-right: 93px;
 }
 
 .pov {
@@ -50,7 +52,7 @@ letter-spacing: 0.03em;
   
 }
 
-.telephon {
+.telephon.list {
   margin-left: auto;
 }
 
@@ -92,20 +94,15 @@ border-radius: 4px;
 padding: 10px 32px;
 min-width: 200px;
 
-
-
   color: var(--primery-bg-color);
   background-color: var(--accent-color);
 
-
- 
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 1.9;
 letter-spacing: 0.06em;
 }
-
 
 
 /* Site-nav */
@@ -126,8 +123,8 @@ letter-spacing: 0.02em;
 }
 
 .page {
-  padding-top: 196px;
-  padding-bottom: 280px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
 
   background: var(--primery-page-color);
@@ -149,10 +146,37 @@ text-transform: uppercase;
   color: var(--accent-color);
 }
 
+ul.list {
+  margin: 0;
+  padding-left: 0;
+}
+
+ul.all {
+  margin: 0;
+  padding-left: 0;
+}
+
+ul.pictures {
+  margin: 0;
+  padding-left: 0;
+}
+
+ul.feature-list {
+  margin: 0;
+  padding-left: 0;
+}
+
+ul.mail {
+  margin: 0;
+  padding-left: 0;
+}
+
 .link.current {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  margin: 0;
+  padding-left: 0;
 
     color: var(--accent-color);
 
@@ -164,7 +188,7 @@ letter-spacing: 0.02em;
 }
 
 .link-tele {
-  columns: var(--accent-color);
+  color: var(--accent-color);
 
   font-style: normal;
 font-weight: 500;
@@ -173,7 +197,7 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 }
 
-.telephon list .item + .item {
+.telephon .list .item + .item {
 margin-left: 50px;
 }
 
@@ -214,6 +238,8 @@ letter-spacing: 0.03em;
 .section {
   background: #ffffff;
   color: var(--primery-main-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 
@@ -255,13 +281,15 @@ letter-spacing: 0.03em;
 
 .mail {
   list-style: none;
-  
 }
 
 .mail li a {
   text-decoration: none;
 }
 
+.mail > .item {
+  margin-top: 9px;
+}
 
  .aside{
 margin-top: 20px;
@@ -396,8 +424,8 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
-.box {
-
+.container {
+outline: 1px solid red;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -405,13 +433,10 @@ letter-spacing: 0.03em;
   width: 1200px;
 }
 
-.container {
+.header-container {
   display: flex;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1200px;
+  
 }
+
 

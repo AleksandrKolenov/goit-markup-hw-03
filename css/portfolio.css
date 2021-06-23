@@ -206,6 +206,7 @@ body {
 .pointer-secondory:hover,
 .pointer-secondory:focus {
   background-color: var(--accent-color);
+  color: var(--primery-img-color);
 }
 
 /* footer */
