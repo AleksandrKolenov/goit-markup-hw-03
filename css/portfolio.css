@@ -17,8 +17,13 @@ body {
 
 /* site-nav */
 
+.page-header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .main-nav {
   display: flex;
+
 }
 
 .prov {
