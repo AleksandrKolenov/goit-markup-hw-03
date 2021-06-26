@@ -104,13 +104,13 @@ margin-left: 50px;
 display: inline-block;
 border-radius: 4px;
 padding: 10px 32px;
-min-width: 200px;
+
 
   color: var(--primery-bg-color);
   background-color: var(--accent-color);
 
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
 letter-spacing: 0.06em;
@@ -175,6 +175,7 @@ ul.all {
 ul.pictures {
   margin: 0;
   padding-left: 0;
+  list-style: none;
 }
 
 ul.feature-list {
@@ -185,6 +186,10 @@ ul.feature-list {
 ul.mail {
   margin-top: 9px;
   padding-left: 0;
+}
+
+.footer .logo {
+  margin-right: 0;
 }
 
 
@@ -204,17 +209,6 @@ font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 }
-
-.link-tele {
-  color: var(--accent-color);
-
-  font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.1;
-letter-spacing: 0.02em;
-}
-
 
 .link-tel {
   color: var(--primery-tex-color);
@@ -263,8 +257,9 @@ letter-spacing: 0.03em;
 }
 
 .page .button: active {
-    color: var(--title-tex-color)
-    background-color: var(var(--primery-bg-color))
+    color: var(--title-tex-color);
+    background: var(--primery-bg-color);
+   
 }
 
 /* primary tex */
@@ -326,7 +321,7 @@ color: var(--primery-bg-color);
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 1.7
+line-height: 1.7;
 letter-spacing: 0.03em;
 }
 
@@ -364,12 +359,10 @@ letter-spacing: 0.03em;
   
 .pictures {
   display: flex;
-  justify-content: center;
 }
 
 .pictures .item:not(:last-child) {
    margin-right: 30px;
- display: block;
 }
 .pictures li {
   width: 370px;
@@ -388,7 +381,6 @@ letter-spacing: 0.03em;
 
   color: var(--title-tex-color);
 
-font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 1.1;
@@ -473,10 +465,8 @@ letter-spacing: 0.03em;
   width: 1200px;
 }
 
-
-.header-container {
-  display: block;
-  align-items: center;
+.our-team {
+  padding: 30px 32px;
 }
 
 
