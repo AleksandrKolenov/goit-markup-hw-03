@@ -186,6 +186,7 @@ ul.feature-list {
 ul.mail {
   margin-top: 9px;
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .footer .logo {
@@ -276,10 +277,15 @@ letter-spacing: 0.03em;
 
 .feature-list li {
   width: 270px;
+  background-color: var(--primery-bg-color);
+}
+
+.feature-list li {
+  color: var(--primery-bg-color);
 }
 
 .feature-list {
-  color: var var(--title-tex-color);
+  color: var(--title-tex-color);
 
 font-style: normal;
 font-weight: 500;
@@ -288,6 +294,8 @@ line-height: 1.2;
 
 letter-spacing: 0.03em;
 }
+
+
 
 /* footer */
 

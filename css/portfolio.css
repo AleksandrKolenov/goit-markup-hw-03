@@ -118,7 +118,7 @@ ul.auth-nav list {
   padding: 0;
 }
 
-ul.btn list {
+ul.btn .list {
   margin: 0;
   padding: 0;
 }
@@ -204,9 +204,13 @@ ul.list {
 
 /* button */
 
-.btn {
+.btn  {
   display: flex;
   justify-content: center;
+}
+
+.btn li {
+  margin-bottom: 50px;
 }
 
 .btn .item:not(:last-child) {
@@ -216,7 +220,6 @@ ul.list {
 .pointer-secondory {
   display: block;
   border-radius: 4px;
-  margin-bottom: 50px;
   color: var(--primery-text-color);
   background: var(--accent-button);
 
@@ -230,10 +233,9 @@ ul.list {
 
 .pointer-primery {
   border-radius: 4px;
-  margin-bottom: 50px;
+  
   color: var(--primery-img-color);
   background-color: var(--accent-color);
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -291,6 +293,7 @@ ul.list {
 .logo-foot {
   margin-top: 0;
   margin-bottom: 20px;
+  text-decoration: none;
 }
 .logo-large {
   color: var(--primery-logo);
@@ -331,4 +334,5 @@ ul.list {
 .our-works {
   padding: 20px 20px;
   border: 1px solid var(--border-color);
+  border-top: 0;
 }
